@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Scotch Display';
+    src: url('ScotchDisplay-BoldItalic.eot');
+    src: local('Scotch Display Bold Italic'), local('ScotchDisplay-BoldItalic'),
+        url('ScotchDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-BoldItalic.woff2') format('woff2'),
+        url('ScotchDisplay-BoldItalic.woff') format('woff'),
+        url('ScotchDisplay-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display';
+    src: url('ScotchDisplay-Light.eot');
+    src: local('Scotch Display Light'), local('ScotchDisplay-Light'),
+        url('ScotchDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-Light.woff2') format('woff2'),
+        url('ScotchDisplay-Light.woff') format('woff'),
+        url('ScotchDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display Roman';
+    src: url('ScotchDisplay-Italic.eot');
+    src: local('Scotch Display Italic'), local('ScotchDisplay-Italic'),
+        url('ScotchDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-Italic.woff2') format('woff2'),
+        url('ScotchDisplay-Italic.woff') format('woff'),
+        url('ScotchDisplay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display';
+    src: url('ScotchDisplay-MediumItalic.eot');
+    src: local('Scotch Display Medium Italic'), local('ScotchDisplay-MediumItalic'),
+        url('ScotchDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-MediumItalic.woff2') format('woff2'),
+        url('ScotchDisplay-MediumItalic.woff') format('woff'),
+        url('ScotchDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display Fat';
+    src: url('ScotchDisplay-Fat.eot');
+    src: local('Scotch Display Fat'), local('ScotchDisplay-Fat'),
+        url('ScotchDisplay-Fat.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-Fat.woff2') format('woff2'),
+        url('ScotchDisplay-Fat.woff') format('woff'),
+        url('ScotchDisplay-Fat.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display Roman';
+    src: url('ScotchDisplay-Bold.eot');
+    src: local('Scotch Display Bold'), local('ScotchDisplay-Bold'),
+        url('ScotchDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-Bold.woff2') format('woff2'),
+        url('ScotchDisplay-Bold.woff') format('woff'),
+        url('ScotchDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display Fat';
+    src: url('ScotchDisplay-FatItalic.eot');
+    src: local('Scotch Display Fat Italic'), local('ScotchDisplay-FatItalic'),
+        url('ScotchDisplay-FatItalic.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-FatItalic.woff2') format('woff2'),
+        url('ScotchDisplay-FatItalic.woff') format('woff'),
+        url('ScotchDisplay-FatItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display';
+    src: url('ScotchDisplay-LightItalic.eot');
+    src: local('Scotch Display Light Italic'), local('ScotchDisplay-LightItalic'),
+        url('ScotchDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-LightItalic.woff2') format('woff2'),
+        url('ScotchDisplay-LightItalic.woff') format('woff'),
+        url('ScotchDisplay-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display';
+    src: url('ScotchDisplay-SemiBoldItalic.eot');
+    src: local('Scotch Display SemiBold Italic'), local('ScotchDisplay-SemiBoldItalic'),
+        url('ScotchDisplay-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url('ScotchDisplay-SemiBoldItalic.woff') format('woff'),
+        url('ScotchDisplay-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display';
+    src: url('ScotchDisplay-SemiBold.eot');
+    src: local('Scotch Display SemiBold'), local('ScotchDisplay-SemiBold'),
+        url('ScotchDisplay-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-SemiBold.woff2') format('woff2'),
+        url('ScotchDisplay-SemiBold.woff') format('woff'),
+        url('ScotchDisplay-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display Roman';
+    src: url('ScotchDisplay-Roman.eot');
+    src: local('Scotch Display Roman'), local('ScotchDisplay-Roman'),
+        url('ScotchDisplay-Roman.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-Roman.woff2') format('woff2'),
+        url('ScotchDisplay-Roman.woff') format('woff'),
+        url('ScotchDisplay-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Display';
+    src: url('ScotchDisplay-Medium.eot');
+    src: local('Scotch Display Medium'), local('ScotchDisplay-Medium'),
+        url('ScotchDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ScotchDisplay-Medium.woff2') format('woff2'),
+        url('ScotchDisplay-Medium.woff') format('woff'),
+        url('ScotchDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
