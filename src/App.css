@@ -10,3 +10,46 @@
 .text-container {
   height: calc(100vh - 80px);
 }
+
+.overlay::before {
+
+}
+
+.app {
+  background: url('/public/images/bg.webp');
+  background-position-x: center;
+  background-position-y: top;
+  animation: 40s infinite linear slidein;
+}
+
+.app::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(17 24 39);
+  opacity: .8;
+}
+
+
+@keyframes slidein {
+  50% {
+    background-position-y: bottom;
+  }
+
+  100% {
+    background-position-y: top;
+  }
+}
+
+.platform {
+  opacity: 0;
+  transform: translateX(-70px);
+}
+
+.logo {
+  transform: translateX(50px);
+}

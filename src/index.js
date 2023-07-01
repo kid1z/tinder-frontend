@@ -9,14 +9,14 @@ import store from './redux/store';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ErrorPage from "./error-page";
-import App from './App';
 import SpinWheel from './routes/spin-wheel';
+import Demo from './routes/Demo'
 import Post from './Post';
 
 const router = createBrowserRouter([
   {
-    path: "/app",
-    element: <App />,
+    path: "/",
+    element: <Demo />,
     errorElement: <ErrorPage />,
     // loader: rootLoader,
     // action: rootAction,
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/",
+    path: "/app",
     element: <Post />,
     errorElement: <ErrorPage />
   }
